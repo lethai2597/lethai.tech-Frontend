@@ -2,6 +2,7 @@ import {Typography, Image, Menu, Timeline, Divider, Progress, Row, Col, Tag, Spa
 import { MailOutlined, UserOutlined, FireOutlined, LikeOutlined, ReadOutlined, ClockCircleOutlined, MessageOutlined } from '@ant-design/icons';
 import ReactHtmlParser from 'react-html-parser'; 
 import {Experiences_List, Language_Skills, Framework_Skills, About_List, Contact_List, Education_List} from '../model'
+import Head from 'next/head'
 
 const layout = {
   labelCol: { span: 24 }
@@ -13,6 +14,9 @@ export default function Home() {
   const { Link } = Anchor;
   return (
     <>
+    <Head>
+      <title>Thai's portfolio - lehai.tech</title>
+    </Head>
     <div style={{backgroundColor: '#fff', boxShadow: '0 3px 5px #cacaca'}}>
       <div style={{maxWidth: 840, margin: 'auto' }}>
         <div style={{position: 'relative', maxHeight: 400, width: '100%', marginBottom: 30}}>
