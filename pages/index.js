@@ -21,7 +21,7 @@ export default function Home() {
       <div style={{maxWidth: 840, margin: 'auto' }}>
         <div style={{position: 'relative', maxHeight: 400, width: '100%', marginBottom: 30}}>
           <div style={{position: 'relative', maxHeight: 350, overflow: 'hidden'}}>
-            <img style={{objectFit: 'cover', width: '100%'}}src="/images/background.png" />
+            <img style={{objectFit: 'cover', width: '100%'}}src="/images/cover.png" />
           </div>
           <div style={{position: "absolute", bottom: -20, width: '100%', textAlign: 'center'}}>
             <Image
